@@ -1,4 +1,5 @@
-const { createTheme } = require("@mui/material");
+import { createTheme, responsiveFontSizes } from "@mui/material";
+
 
 const theme = createTheme({
     typography:{
@@ -6,7 +7,10 @@ const theme = createTheme({
     },
     palette:{
         primary:{
-            main: '#0d9e86'
+            main: '#004b66'
+        },
+        secondary:{
+            main: '#a5ebd0'
         }
     },
     zIndex:{
@@ -23,4 +27,4 @@ const theme = createTheme({
 
 });
 
-export default theme;
+export default responsiveFontSizes(theme);

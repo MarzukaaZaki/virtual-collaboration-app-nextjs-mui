@@ -1,3 +1,4 @@
+import { Toolbar } from '@mui/material'
 import ThemeRegistry from './ThemeRegistry'
 import Navbar from './components/Navbar/Navbar'
 import './globals.css'
@@ -18,6 +19,8 @@ export default function RootLayout({ children }) {
 
         <ThemeRegistry options={{ key: 'mui' }}>
           <Navbar />
+          <Toolbar/>
+       
           {children}
         </ThemeRegistry>
 

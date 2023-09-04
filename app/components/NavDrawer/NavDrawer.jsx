@@ -8,7 +8,7 @@ const NavDrawer = () => {
     return (
         <>
             <Drawer anchor='top' open={openNavDrawer} sx={{zIndex: theme.zIndex.navDrawer}} onClose={() => setOpenNavDrawer(false)}>
-                <List sx={{marginTop:'56px', backgroundColor: '#0d9e86'}}>
+                <List sx={{marginTop:'56px', backgroundColor: '#386766'}}>
                     {
                         navLinks.map((navLink, index) =>
                             <ListItemButton key={index} sx={{ margin: '2px 6px' }}>
