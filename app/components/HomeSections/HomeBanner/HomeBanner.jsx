@@ -26,7 +26,7 @@ const HomeBanner = () => {
                         <Typography variant='h1'
                             sx={{
                                 fontWeight: '700',
-                                color: '#124d49',
+                                color: '#10423f',
                                 marginBottom: '28px'
                             }}
 
@@ -36,7 +36,7 @@ const HomeBanner = () => {
                         <Typography variant="h5" component="div"
 
                             sx={{
-                                fontWeight: '400',
+                                fontWeight: '600',
                                 color: '#074a53',
                                 marginBottom: '28px'
 
