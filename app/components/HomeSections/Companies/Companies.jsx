@@ -7,6 +7,10 @@ import xeroxLogo from '../../../../public/assets/brand-logos/Xerox_Primary_Logo.
 import travelokaLogo from '../../../../public/assets/brand-logos/Traveloka_Primary_Logo.png'
 import mediumLogo from '../../../../public/assets/brand-logos/Medium.png'
 
+
+
+
+
 const Companies = () => {
     return (
         <>
@@ -16,25 +20,26 @@ const Companies = () => {
             columnGap:6,
             paddingLeft:'20px',
             bgcolor:'#bbded9',
+            marginBottom:'20px'
             
         }}>
-            <Grid item mobile={12} laptop={2}>
+            <Grid item mobile={12}  laptop={2} >
             <Image width={140} src={colehaanLogo} alt='brand1'
             style={{ filter: 'grayscale(100%)'}}></Image>
             </Grid>
-            <Grid item mobile={12} laptop={2}>
+            <Grid item mobile={12}  laptop={2}>
             <Image width={140} src={xeroxLogo} alt='brand1'
             style={{ filter: 'grayscale(100%)'}}></Image>
             </Grid>
-            <Grid item mobile={12} laptop={2}>
+            <Grid item mobile={12}  laptop={2}>
             <Image width={140} src={travelokaLogo} alt='brand1'
             style={{ filter: 'grayscale(100%)'}}></Image>
             </Grid>
-            <Grid item mobile={12} laptop={2}>
+            <Grid item mobile={12}  laptop={2}>
             <Image width={140} src={airbnbLogo} alt='brand1'
             style={{ filter: 'grayscale(100%)', marginTop:'13px'}}></Image>
             </Grid>
-            <Grid item mobile={12} laptop={2}>
+            <Grid item mobile={12}  laptop={2}>
             <Image width={140} src={mediumLogo} alt='brand1'
             style={{ filter: 'grayscale(100%)',  marginTop:'13px'}}></Image>
             </Grid>
