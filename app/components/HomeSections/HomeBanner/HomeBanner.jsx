@@ -66,7 +66,10 @@ const HomeBanner = () => {
                 </Grid>
                 <Grid item mobile={12} laptop={6}>
                     {/* <video width='100%' autoPlay loop muted src={require('../../../../public/assets/video_banner.mp4')}></video> */}
-                    <Image width={410} height={450} src={bannerImg} alt='banner image'></Image>
+                    <Image src={bannerImg} 
+                           alt='banner image' 
+                           layout='responsive'
+                           sizes='(max-width: 640px) 100% 50%'></Image>
 
                 </Grid>
 
