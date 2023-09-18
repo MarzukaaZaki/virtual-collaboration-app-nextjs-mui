@@ -8,7 +8,7 @@ import './Perks.module.css'
 const StyledTypography = styled(Typography)({
     marginTop: '6%',
     fontWeight: 'bolder',
-    marginBottom: '15px',
+    // marginBottom: '15px',
     background: '#095B71',
     background: 'linear-gradient(to right, #095B71 0%, #147C93 50%, #43b09d 100%)',
     WebkitBackgroundClip: 'text',
@@ -29,7 +29,7 @@ const StyledGrid = styled(Grid)({
 const Perks = () => {
     return (
         <>
-            <Grid container sx={{ marginBottom: '25px', marginTop: '10%' }}>
+            <Grid container sx={{ marginTop: '10%' }}>
                 <StyledGrid item mobile={12} laptop={7} >
                     <StyledTypography variant='h2' sx={{
 
@@ -67,7 +67,7 @@ const Perks = () => {
                         WebkitTextFillColor: 'transparent'
 
                     }}>All Your Work Needs in One App </StyledTypography>
-                    <StyledTypography variant='p' sx={{ color: 'primary.light' }}>Our multipurpose application is your comprehensive solution for remote work, continually expanding its offerings to meet evolving demands. With seamless integrations to popular third-party apps, it streamlines your workflow, ensuring all your essential tools and resources are readily accessible in a single, cohesive platform</StyledTypography>
+                    <Typography variant='p' sx={{ color: 'primary.light' }}>Our multipurpose application is your comprehensive solution for remote work, continually expanding its offerings to meet evolving demands. With seamless integrations to popular third-party apps, it streamlines your workflow, ensuring all your essential tools and resources are readily accessible in a single, cohesive platform</Typography>
                 </StyledGrid>
 
             </Grid>

@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    text-align: center;
+    color:white;
+    background: #004b66;
+
+    
+}
+
+.textcontainer{
+    position: absolute;
+    top: 5%;
+    font-size: 2rem;
+  
+
+}
+
+.image{
+    opacity: 0.3;
+    
+}

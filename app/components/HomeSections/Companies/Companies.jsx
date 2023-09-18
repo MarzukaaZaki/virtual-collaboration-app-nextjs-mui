@@ -20,7 +20,7 @@ const Companies = () => {
             columnGap:6,
             paddingLeft:'20px',
             bgcolor:'#bbded9',
-            marginBottom:'20px'
+            // marginBottom:'20px'
             
         }}>
             <Grid item mobile={12} tablet={2.5}  laptop={2} >
