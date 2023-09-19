@@ -30,7 +30,7 @@ const Perks = () => {
     return (
         <>
             <Grid container sx={{ marginTop: '10%' }}>
-                <StyledGrid item mobile={12} laptop={7} >
+                <StyledGrid item mobile={12} laptop={6} >
                     <StyledTypography variant='h2' sx={{
 
 
@@ -38,7 +38,7 @@ const Perks = () => {
                     }}>In the era of remote collaboration, our online meeting platform fosters seamless global teamwork. </StyledTypography>
                     {/* <StyledTypography variant='p'></StyledTypography> */}
                 </StyledGrid>
-                <StyledGrid item mobile={12} laptop={5}>
+                <StyledGrid item mobile={12} laptop={6}>
                     <video width='100%' height={350} autoPlay loop muted src={require('../../../../public/assets/video_meeting_2.mp4')}></video>
                 </StyledGrid>
 

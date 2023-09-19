@@ -11,9 +11,10 @@ export default function Home() {
     <div>
       <HomeBanner />
       <Companies />
+      <QuickLinks />
       <Perks />
       <Workflows/>
-      <QuickLinks />
+      
 
 
     </div>

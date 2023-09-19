@@ -13,8 +13,8 @@ const QuickLinks = () => {
        <Grid container>
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container}>
             <Image
-            src={justAnImg}
-            layout='responsive' className={styles.image}>
+            src={newUserImg}
+            layout='responsive' className={styles.image} style={{maxHeight:'225px'}}>
 
             </Image>
             <div className={styles.textcontainer}>
@@ -23,7 +23,7 @@ const QuickLinks = () => {
         </Grid>
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container} >
             <Image
-            src={justAnImg}
+            src={planImg}
             layout='responsive' className={styles.image}>
 
             </Image>
@@ -33,7 +33,7 @@ const QuickLinks = () => {
         </Grid>
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container}>
             <Image
-            src={justAnImg}
+            src={usageImg}
             layout='responsive' className={styles.image}
             >
 
@@ -44,12 +44,12 @@ const QuickLinks = () => {
         </Grid>
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container} >
             <Image
-            src={justAnImg}
+            src={hybridWorkImg}
             layout='responsive' className={styles.image}>
 
             </Image>
             <div className={styles.textcontainer}>
-                <p>Check Out Hybrid Work Modes</p>
+                <p>Our Hybrid Work Options</p>
             </div>
         </Grid>
 

@@ -9,9 +9,9 @@
 
 }
 
-.workflowTextContainer {
+/* .workflowTextContainer {
     
-}
+} */
 
 .workflowImageContainer {
  
@@ -27,3 +27,22 @@
     
     
 }
+
+
+.swiper-button-next, .swiper-button-prev {
+    top: 10px;
+    width: auto;
+    height: 40px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+  }
+  
+  .swiper-button-next {
+    right: 5px;
+  }
+  
+  .swiper-button-prev {
+    right: 40px;
+  }
+  

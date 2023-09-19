@@ -2,6 +2,12 @@
 import React, { useState, useRef } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation } from 'swiper/core';
+
+import 'swiper/css/navigation';
+
+// install Swiper modules
+SwiperCore.use([Navigation]);
 
 // Import Swiper styles
 import "swiper/css";
@@ -23,6 +29,7 @@ const Workflows = () => {
        <>
        
        <Swiper className="mySwiper"
+                navigation={true}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
                 slidesPerView={noOfSlidesPerView}
