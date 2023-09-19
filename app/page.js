@@ -11,8 +11,8 @@ export default function Home() {
     <div>
       <HomeBanner />
       <Companies />
-      <QuickLinks />
-      <Perks />
+      {/* <QuickLinks /> */}
+      {/* <Perks /> */}
       <Workflows/>
       
 

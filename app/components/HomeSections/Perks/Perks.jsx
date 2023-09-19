@@ -28,8 +28,8 @@ const StyledGrid = styled(Grid)({
 
 const Perks = () => {
     return (
-        <>
-            <Grid container sx={{ marginTop: '10%' }}>
+        <div style={{backgroundColor: '#f1f6f7'}}>
+            <Grid container sx={{ marginTop: '5%'}}>
                 <StyledGrid item mobile={12} laptop={6} >
                     <StyledTypography variant='h2' sx={{
 
@@ -44,7 +44,7 @@ const Perks = () => {
 
             </Grid>
 
-            <Grid container sx={{ marginBottom: '25px', marginTop: '10%', bgcolor: '#f1f6f7' }}>
+            <Grid container sx={{ marginBottom: '25px', marginTop: '10%'}}>
 
                 <StyledGrid item mobile={12} laptop={7}>
                     <div>
@@ -74,7 +74,7 @@ const Perks = () => {
 
 
 
-        </>
+        </div>
     );
 };
 
