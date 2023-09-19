@@ -1,4 +1,4 @@
-import { Grid } from '@mui/material';
+import { Grid} from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
 import styles from './QuickLinks.module.css'
@@ -6,13 +6,14 @@ import newUserImg from '../../../../public/assets/quick-link-images/newto.jpg'
 import planImg from '../../../../public/assets/quick-link-images/personal_team.jpg'
 import hybridWorkImg from '../../../../public/assets/quick-link-images/hybrid.jpg'
 import usageImg from '../../../../public/assets/quick-link-images/student_or_prof.jpg'
-
+import justAnImg from '../../../../public/assets/undraw_walking_in_rain_jw4i.png'
 const QuickLinks = () => {
+   
     return (
        <Grid container>
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container}>
             <Image
-            src={newUserImg}
+            src={justAnImg}
             layout='responsive' className={styles.image}>
 
             </Image>
@@ -22,7 +23,7 @@ const QuickLinks = () => {
         </Grid>
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container} >
             <Image
-            src={planImg}
+            src={justAnImg}
             layout='responsive' className={styles.image}>
 
             </Image>
@@ -32,7 +33,7 @@ const QuickLinks = () => {
         </Grid>
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container}>
             <Image
-            src={usageImg}
+            src={justAnImg}
             layout='responsive' className={styles.image}
             >
 
@@ -43,7 +44,7 @@ const QuickLinks = () => {
         </Grid>
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container} >
             <Image
-            src={hybridWorkImg}
+            src={justAnImg}
             layout='responsive' className={styles.image}>
 
             </Image>

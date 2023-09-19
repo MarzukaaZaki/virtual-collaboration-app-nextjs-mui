@@ -4,17 +4,18 @@ import HomeBanner from './components/HomeSections/HomeBanner/HomeBanner'
 import Companies from './components/HomeSections/Companies/Companies'
 import Perks from './components/HomeSections/Perks/Perks'
 import QuickLinks from './components/HomeSections/QuickLinks/QuickLinks'
+import Workflows from './components/HomeSections/Workflows/Workflows'
 
 export default function Home() {
   return (
     <div>
-      <HomeBanner/>
-      <Companies/> 
-         
-      <Perks/><QuickLinks/>
-   
-      
-     
+      <HomeBanner />
+      <Companies />
+      <Perks />
+      <Workflows/>
+      <QuickLinks />
+
+
     </div>
   )
 }

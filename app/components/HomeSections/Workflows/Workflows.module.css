@@ -1,0 +1,29 @@
+.workflowCardContainer {
+
+    margin: 20px;
+    box-shadow: 1px 10px 17px -3px rgba(110,106,106,0.37);
+    -webkit-box-shadow: 1px 10px 17px -3px rgba(110,106,106,0.37);
+    -moz-box-shadow: 1px 10px 17px -3px rgba(110,106,106,0.37);
+    border-radius: 12px;
+    padding: 20px;
+
+}
+
+.workflowTextContainer {
+    
+}
+
+.workflowImageContainer {
+ 
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 34px;
+    padding: 6px 1px;
+}
+
+.workflowImage {
+    margin-bottom: -34px;
+    border-radius: 5px;
+    
+    
+}
