@@ -30,7 +30,7 @@ const Workflows = () => {
        <Box sx={{marginLeft:'5%'}}>
        <SectionTitle heading='Workflows Tuned for You' subHeading='Tellect in Action'></SectionTitle>
        <Swiper className="mySwiper"
-                navigation={true}
+                
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
                 slidesPerView={noOfSlidesPerView}
