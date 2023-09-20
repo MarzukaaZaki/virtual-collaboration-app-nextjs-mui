@@ -6,7 +6,7 @@ import newUserImg from '../../../../public/assets/quick-link-images/newto.jpg'
 import planImg from '../../../../public/assets/quick-link-images/personal_team.jpg'
 import hybridWorkImg from '../../../../public/assets/quick-link-images/hybrid.jpg'
 import usageImg from '../../../../public/assets/quick-link-images/student_or_prof.jpg'
-import justAnImg from '../../../../public/assets/undraw_walking_in_rain_jw4i.png'
+
 const QuickLinks = () => {
    
     return (

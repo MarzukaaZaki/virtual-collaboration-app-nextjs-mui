@@ -5,6 +5,7 @@ import Companies from './components/HomeSections/Companies/Companies'
 import Perks from './components/HomeSections/Perks/Perks'
 import QuickLinks from './components/HomeSections/QuickLinks/QuickLinks'
 import Workflows from './components/HomeSections/Workflows/Workflows'
+import ConnectedTools from './components/HomeSections/ConnectedTools/ConnectedTools'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       {/* <QuickLinks /> */}
       {/* <Perks /> */}
       <Workflows/>
+      <ConnectedTools/>
       
 
 

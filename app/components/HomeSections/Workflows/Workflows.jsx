@@ -11,7 +11,7 @@ SwiperCore.use([Navigation]);
 
 // Import Swiper styles
 import "swiper/css";
-import { useMediaQuery, useTheme } from '@mui/material';
+import { Box, useMediaQuery, useTheme } from '@mui/material';
 import styles from './Workflows.module.css';
 import Image from 'next/image';
 import brainstormImg from '../../../../public/assets/workflow-images/brainstorm.png'
@@ -20,20 +20,21 @@ import webinarImg from '../../../../public/assets/workflow-images/webinar.png'
 import projectImg from '../../../../public/assets/workflow-images/projectmgm.png'
 import realtimeChatImg from '../../../../public/assets/workflow-images/realtime-chat.png'
 import fileShareImg from '../../../../public/assets/workflow-images/file-sharing.png'
+import SectionTitle from '../../SectionTitle/SectionTitle';
 
 const Workflows = () => {
     const theme = useTheme();
     const isBelowLaptop = useMediaQuery(theme.breakpoints.down('laptop'));
     const noOfSlidesPerView = isBelowLaptop ? 1.2 : 3;
     return (
-       <>
-       
+       <Box sx={{marginLeft:'5%'}}>
+       <SectionTitle heading='Workflows Tuned for You' subHeading='Tellect in Action'></SectionTitle>
        <Swiper className="mySwiper"
                 navigation={true}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
                 slidesPerView={noOfSlidesPerView}
-                style={{ width: '100%', height: '300px', marginBottom: '20px' }}>
+                style={{ width: '100%', height: '300px', marginBottom: '20px'}}>
 
                 <SwiperSlide>
                     <div className={styles.workflowCardContainer}>
@@ -44,7 +45,7 @@ const Workflows = () => {
                             <h2>
                                Video Conferencing
                             </h2>
-                            <p>Experience the power of video conferencing within our platform, enabling productive, collaborative interactions.</p>
+                            <p>Experience the power of video conferencing within our platform, enabling productive interactions.</p>
                         </div>
 
                     </div>
@@ -127,7 +128,7 @@ const Workflows = () => {
 
        
        
-       </>
+       </Box>
     );
 };
 

@@ -18,7 +18,7 @@ const Companies = () => {
             color:'gray',
             textAlign:'center',
             margin:'40px 0 10px 0',
-            fontSize:'1.1rem',
+            fontSize:'1rem',
             fontWeight:'500',
             textTransform:'uppercase'
         }}>
