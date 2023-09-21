@@ -69,6 +69,7 @@ const HomeBanner = () => {
                     <Image src={bannerImg}
                         alt='banner image'
                         priority
+                        layout='responsive'
                         // sizes='(max-width: 640px) 100% 50%'
                         ></Image>
 
