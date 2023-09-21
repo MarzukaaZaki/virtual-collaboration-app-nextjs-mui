@@ -8,7 +8,7 @@ import { useTheme } from '@emotion/react';
 
 const Navbar = () => {
     const navLinks = ['About', 'Features', 'Integrations', 'Blog'];
-    const [value, setValue] = useState();
+    const [value, setValue] = useState(1);
     const theme = useTheme();
     // console.log(theme);
     const isSizeBelowDesktop = useMediaQuery(theme.breakpoints.down('desktop'));
@@ -30,10 +30,14 @@ const Navbar = () => {
                             :
                             <>
                                 {/* <Image src={logoImg} alt='logo' width={153} height={65}></Image> */}
-                                <Tabs textColor='white'
+                                <Tabs
+                                    sx={{
+                                        color:'white'
+                                    }}
                                     value={value}
                                     indicatorColor='white'
-                                    onChange={(event, value) => setValue(value)}>
+                                    onChange={(event, value) => setValue(value)}
+                                    >
                                     {
                                         navLinks.map((navLink, index) =>
                                             <Tab key={index} label={navLink}></Tab>)

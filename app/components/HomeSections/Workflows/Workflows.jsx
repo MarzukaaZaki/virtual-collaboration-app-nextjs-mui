@@ -38,7 +38,7 @@ const Workflows = () => {
                 <SwiperSlide>
                     <div className={styles.workflowCardContainer}>
                         <div className={styles.workflowImageContainer} style={{backgroundColor:'#8B7FE3'}}>
-                            <Image src={videoConfImg} width={42} height={42} className={styles.workflowImage}></Image>
+                            <Image src={videoConfImg} width={42} height={42} alt='Video Conferencing' className={styles.workflowImage}></Image>
                         </div>
                         <div className={styles.workflowTextContainer }>
                             <h2>
@@ -52,7 +52,7 @@ const Workflows = () => {
                 <SwiperSlide>
                     <div className={styles.workflowCardContainer}>
                         <div className={styles.workflowImageContainer} style={{backgroundColor:'#51d8a4'}}>
-                            <Image src={brainstormImg} width={42} height={42} className={styles.workflowImage}></Image>
+                            <Image src={brainstormImg} width={42} height={42} alt='Brainstorming' className={styles.workflowImage}></Image>
                         </div>
                         <div className={styles.workflowTextContainer }>
                             <h2>
@@ -66,7 +66,7 @@ const Workflows = () => {
                 <SwiperSlide>
                     <div className={styles.workflowCardContainer}>
                         <div className={styles.workflowImageContainer} style={{backgroundColor:'#e485aa'}}>
-                            <Image src={webinarImg} width={42} height={42} className={styles.workflowImage}></Image>
+                            <Image src={webinarImg} width={42} height={42} alt='Events and Webinars' className={styles.workflowImage}></Image>
                         </div>
                         <div className={styles.workflowTextContainer }>
                             <h2>
@@ -80,7 +80,7 @@ const Workflows = () => {
                 <SwiperSlide>
                     <div className={styles.workflowCardContainer}>
                         <div className={styles.workflowImageContainer} style={{backgroundColor:'#40C4D5'}}>
-                            <Image src={projectImg} width={42} height={42} className={styles.workflowImage}></Image>
+                            <Image src={projectImg} width={42} height={42} alt='Project Management' className={styles.workflowImage}></Image>
                         </div>
                         <div className={styles.workflowTextContainer }>
                             <h2>
@@ -94,7 +94,7 @@ const Workflows = () => {
                 <SwiperSlide>
                     <div className={styles.workflowCardContainer}>
                         <div className={styles.workflowImageContainer} style={{backgroundColor:'#c9d851'}}>
-                            <Image src={realtimeChatImg} width={42} height={42} className={styles.workflowImage}></Image>
+                            <Image src={realtimeChatImg} width={42} height={42} alt='Real-time Chatting' className={styles.workflowImage}></Image>
                         </div>
                         <div className={styles.workflowTextContainer }>
                             <h2>
@@ -108,7 +108,7 @@ const Workflows = () => {
                 <SwiperSlide>
                     <div className={styles.workflowCardContainer}>
                         <div className={styles.workflowImageContainer} style={{backgroundColor:'#d8a451'}}>
-                            <Image src={fileShareImg} width={42} height={42} className={styles.workflowImage}></Image>
+                            <Image src={fileShareImg} width={42} height={42} alt='Resource Sharing' className={styles.workflowImage}></Image>
                         </div>
                         <div className={styles.workflowTextContainer }>
                             <h2>

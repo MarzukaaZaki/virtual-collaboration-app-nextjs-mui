@@ -27,7 +27,7 @@ const ConnectedTools = () => {
                             <CardHeader
                                 avatar={
                                     <Avatar aria-label="recipe" sx={{bgcolor:'white'}}>
-                                        <Image src={googleCalendarImg} width={40} height={40}></Image>
+                                        <Image src={googleCalendarImg} width={40} height={40} alt='Google Calendar'></Image>
                                     </Avatar>
                                 }
 
@@ -55,7 +55,7 @@ const ConnectedTools = () => {
                             <CardHeader
                                 avatar={
                                     <Avatar aria-label="recipe" sx={{bgcolor:'white'}}>
-                                        <Image src={googleDriveImg} width={40} height={40}></Image>
+                                        <Image src={googleDriveImg} width={40} height={40} alt='Google Drive'></Image>
                                     </Avatar>
                                 }
 
@@ -84,7 +84,7 @@ const ConnectedTools = () => {
                             <CardHeader
                                 avatar={
                                     <Avatar aria-label="recipe" sx={{bgcolor:'white'}}>
-                                        <Image src={notionImg} width={40} height={40}></Image>
+                                        <Image src={notionImg} width={40} height={40} alt='Notion'></Image>
                                     </Avatar>
                                 }
 
@@ -112,7 +112,7 @@ const ConnectedTools = () => {
                             <CardHeader
                                 avatar={
                                     <Avatar aria-label="recipe" sx={{bgcolor:'white'}}>
-                                        <Image src={telegramImg} width={40} height={40}></Image>
+                                        <Image src={telegramImg} width={40} height={40} alt='Telegram'></Image>
                                     </Avatar>
                                 }
 
@@ -140,7 +140,7 @@ const ConnectedTools = () => {
                             <CardHeader
                                 avatar={
                                     <Avatar aria-label="recipe" sx={{bgcolor:'white'}}>
-                                        <Image src={githubImg} width={40} height={40}></Image>
+                                        <Image src={githubImg} width={40} height={40} alt='Github'></Image>
                                     </Avatar>
                                 }
 
