@@ -68,7 +68,7 @@ const HomeBanner = () => {
                     {/* <video width='100%' autoPlay loop muted src={require('../../../../public/assets/video_banner.mp4')}></video> */}
                     <Image src={bannerImg}
                         alt='banner image'
-                        
+                        priority
                         // sizes='(max-width: 640px) 100% 50%'
                         ></Image>
 
