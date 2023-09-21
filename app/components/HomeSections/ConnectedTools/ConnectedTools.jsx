@@ -38,7 +38,7 @@ const ConnectedTools = () => {
                                 <CardContent>
 
                                     <Typography variant="body2" color="text.secondary">
-                                        Seamlessly sync your app's events and meetings with users' Google Calendars.
+                                        Seamlessly sync your apps events and meetings with users Google Calendars.
                                     </Typography>
                                 </CardContent>
                                 <CardMedia
