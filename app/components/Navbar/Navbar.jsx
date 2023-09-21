@@ -20,7 +20,7 @@ const Navbar = () => {
                 background: 'linear-gradient(97deg, rgba(49,157,152,1) 0%, rgba(26,130,146,1) 0%, rgba(64,173,156,1) 46%, rgba(67,176,157,1) 58%, rgba(91,208,164,1) 94%)'
             }}>
                 <Toolbar>
-                    <Image src={logoImg} alt='logo' width={153} height={65} ></Image>
+                    <Image src={logoImg} priority alt='logo' width={153} height={65} ></Image>
                     {
                         isSizeBelowDesktop ?
                             <>

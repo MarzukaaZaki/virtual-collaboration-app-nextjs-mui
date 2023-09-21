@@ -14,7 +14,7 @@ const QuickLinks = () => {
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container}>
             <Image
             src={newUserImg}
-            layout='responsive' className={styles.image} style={{maxHeight:'225px'}}>
+             alt='image' className={styles.image} style={{maxHeight:'225px'}}>
 
             </Image>
             <div className={styles.textcontainer}>
@@ -24,7 +24,7 @@ const QuickLinks = () => {
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container} >
             <Image
             src={planImg}
-            layout='responsive' className={styles.image}>
+            layout='responsive' alt='image' className={styles.image}>
 
             </Image>
             <div className={styles.textcontainer}>
@@ -34,7 +34,7 @@ const QuickLinks = () => {
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container}>
             <Image
             src={usageImg}
-            layout='responsive' className={styles.image}
+            layout='responsive' alt='image' className={styles.image}
             >
 
             </Image>
@@ -45,7 +45,7 @@ const QuickLinks = () => {
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container} >
             <Image
             src={hybridWorkImg}
-            layout='responsive' className={styles.image}>
+            layout='responsive' alt='image' className={styles.image}>
 
             </Image>
             <div className={styles.textcontainer}>

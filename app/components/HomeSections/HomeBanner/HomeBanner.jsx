@@ -50,7 +50,7 @@ const HomeBanner = () => {
                             fontWeight: 'bold',
                             padding: '13px 30px'
                         }} >
-                         
+
                             Watch Video</Button>
                         <Button size='large' variant="contained" sx={{
                             marginRight: '10px',
@@ -66,10 +66,11 @@ const HomeBanner = () => {
                 </Grid>
                 <Grid item mobile={12} laptop={6}>
                     {/* <video width='100%' autoPlay loop muted src={require('../../../../public/assets/video_banner.mp4')}></video> */}
-                    <Image src={bannerImg} 
-                           alt='banner image' 
-                           layout='responsive'
-                           sizes='(max-width: 640px) 100% 50%'></Image>
+                    <Image src={bannerImg}
+                        alt='banner image'
+                        
+                        // sizes='(max-width: 640px) 100% 50%'
+                        ></Image>
 
                 </Grid>
 
