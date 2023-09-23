@@ -7,6 +7,7 @@ import QuickLinks from './components/HomeSections/QuickLinks/QuickLinks'
 import Workflows from './components/HomeSections/Workflows/Workflows'
 import ConnectedTools from './components/HomeSections/ConnectedTools/ConnectedTools'
 import Testimonials from './components/HomeSections/Testimonials/Testimonials'
+import FeaturedBlogPosts from './components/HomeSections/FeaturedBlogPosts/FeaturedBlogPosts'
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
       <Workflows/>
       <ConnectedTools/>
       <Testimonials/>
-      {/* <QuickLinks /> */}
+      <QuickLinks />
+      <FeaturedBlogPosts/>
       
 
 

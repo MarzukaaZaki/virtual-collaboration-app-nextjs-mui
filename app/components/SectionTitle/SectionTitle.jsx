@@ -5,7 +5,8 @@ const SectionTitle = ({ subHeading, heading }) => {
     return (
         <Box sx={{
 
-            textAlign: 'left'
+            textAlign: 'left',
+            
 
         }}>
             <Typography variant='p' sx={{
@@ -13,8 +14,9 @@ const SectionTitle = ({ subHeading, heading }) => {
                 background: 'linear-gradient(to right, #095B71 0%, #147C93 50%, #43b09d 100%)',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
+                
             }}>{subHeading}</Typography>
-            <Typography variant='h2' sx={{ fontWeight: '700' }}>{heading}</Typography>
+            <Typography variant='h2' sx={{ fontWeight: '700', marginBottom:'15px' }}>{heading}</Typography>
         </Box>
     );
 };

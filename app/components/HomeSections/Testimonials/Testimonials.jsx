@@ -38,7 +38,7 @@ const Testimonials = () => {
                         tablet: 'left'
                     },
                 }}>
-                    <Typography variant='h3' sx={{marginTop:'5%', marginBottom: '22px', fontWeight: '600' }}>200,000+ use Tellect to Maximize their Productivity!</Typography>
+                    <Typography variant='h2' sx={{marginTop:'5%', marginBottom: '22px', fontWeight: '550' }}>200,000+ use Tellect to Maximize their Productivity!</Typography>
                     <Typography variant='h6' sx={{marginBottom: '22px', color:'#3dc2ae'}}>We're dedicated to providing you with a powerful and user-friendly virtual collaboration platform that empowers individuals and teams to achieve their goals with ease.</Typography>
                     <Typography variant='p'>But don’t just take our word for it, see what our customers have to say.</Typography>
                     <br />
