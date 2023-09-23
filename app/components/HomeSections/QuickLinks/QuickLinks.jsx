@@ -14,7 +14,7 @@ const QuickLinks = () => {
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container}>
             <Image
             src={newUserImg}
-             alt='image' className={styles.image} style={{maxHeight:'225px'}}>
+             alt='image' className={styles.image} layout='responsive'>
 
             </Image>
             <div className={styles.textcontainer}>

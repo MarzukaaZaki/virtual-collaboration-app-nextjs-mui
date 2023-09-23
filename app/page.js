@@ -6,16 +6,19 @@ import Perks from './components/HomeSections/Perks/Perks'
 import QuickLinks from './components/HomeSections/QuickLinks/QuickLinks'
 import Workflows from './components/HomeSections/Workflows/Workflows'
 import ConnectedTools from './components/HomeSections/ConnectedTools/ConnectedTools'
+import Testimonials from './components/HomeSections/Testimonials/Testimonials'
 
 export default function Home() {
   return (
     <div>
       <HomeBanner />
       <Companies />
-      {/* <QuickLinks /> */}
+      
       {/* <Perks /> */}
       <Workflows/>
       <ConnectedTools/>
+      <Testimonials/>
+      {/* <QuickLinks /> */}
       
 
 
