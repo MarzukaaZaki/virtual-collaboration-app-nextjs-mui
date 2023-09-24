@@ -10,7 +10,7 @@ import usageImg from '../../../../public/assets/quick-link-images/student_or_pro
 const QuickLinks = () => {
    
     return (
-       <Grid container>
+       <Grid container sx={{marginBottom:'6%'}}>
         <Grid item mobile={12} tablet={6} laptop={3} className={styles.container}>
             <Image
             src={newUserImg}

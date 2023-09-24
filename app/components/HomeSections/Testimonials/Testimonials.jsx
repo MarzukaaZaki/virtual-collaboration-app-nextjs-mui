@@ -101,7 +101,7 @@ const Testimonials = () => {
                                 <br />
 
                                 <Box sx={{ display: 'flex', marginTop: '20px' }}>
-                                    <Image src={ceo1} width={47} alt='ceo-pic' style={{marginRight:'', borderRadius:'80%' }} />
+                                    <Image src={ceo1} width={47} alt='ceo-pic' style={{ borderRadius:'80%' }} />
                                     <Box sx={{paddingLeft:'10px'}}>
                                         <Typography variant='body'>Ryan Gosling</Typography>
                                         <Typography variant='body2'>Chief of Operations, Cole Haan Shoes</Typography>

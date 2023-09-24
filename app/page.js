@@ -13,9 +13,8 @@ export default function Home() {
   return (
     <div>
       <HomeBanner />
+      <Perks />
       <Companies />
-      
-      {/* <Perks /> */}
       <Workflows/>
       <ConnectedTools/>
       <Testimonials/>
