@@ -6,7 +6,7 @@ import AboutWork from '../components/AboutSections/AboutWork/AboutWork';
 const AboutPage = () => {
     return (
         <Box sx={{
-            textAlign: 'center', 
+            
             // background: 'rgb(57,187,214)',
             // background: 'linear-gradient(254deg, rgba(57,187,214,1) 0%, rgba(197,245,255,1) 39%, rgba(255,255,255,1) 91%)'
         }}>

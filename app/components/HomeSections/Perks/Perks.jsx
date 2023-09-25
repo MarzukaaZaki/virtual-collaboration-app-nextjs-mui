@@ -14,7 +14,8 @@ const StyledTypography = styled(Typography)({
     WebkitBackgroundClip: 'text',
     WebkitTextFillColor: 'transparent',
     textAlign: {
-        mobile: 'center'
+        mobile: 'center',
+        laptop:'left'
     }
 })
 
