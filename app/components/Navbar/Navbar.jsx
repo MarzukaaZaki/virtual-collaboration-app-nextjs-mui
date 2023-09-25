@@ -41,7 +41,7 @@ const Navbar = () => {
                                     >
                                     {
                                         navLinks.map((navLink, index) =>
-                                           <Link href={`/${navLink}`}> <Tab key={index} label={navLink} sx={{color:'white', fontWeight:'bold'}}></Tab></Link>)
+                                           <Link href={`/${navLink}`} key={index}> <Tab  label={navLink} sx={{color:'white', fontWeight:'bold'}}></Tab></Link>)
                                     }
                                    
                                 </Tabs>
