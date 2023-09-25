@@ -5,9 +5,10 @@ import React, { useState } from 'react';
 import logoImg from '../../../public/assets/cover.png';
 import NavDrawer from '../NavDrawer/NavDrawer';
 import { useTheme } from '@emotion/react';
+import Link from 'next/link';
 
 const Navbar = () => {
-    const navLinks = ['About', 'Features', 'Integrations', 'Blog'];
+    const navLinks = ['about', 'features', 'integrations', 'blog'];
     const [value, setValue] = useState(1);
     const theme = useTheme();
     // console.log(theme);
@@ -40,7 +41,7 @@ const Navbar = () => {
                                     >
                                     {
                                         navLinks.map((navLink, index) =>
-                                            <Tab key={index} label={navLink}></Tab>)
+                                           <Link href={`/${navLink}`}> <Tab key={index} label={navLink} sx={{color:'white', fontWeight:'bold'}}></Tab></Link>)
                                     }
                                    
                                 </Tabs>

@@ -47,13 +47,15 @@ const HomeBanner = () => {
 
                         <Button size='large' variant="contained" sx={{
                             marginRight: '20px',
+                            marginBottom: '20px',
                             fontWeight: 'bold',
-                            padding: '13px 30px'
+                            padding: '13px 30px',
                         }} >
 
                             Watch Video</Button>
                         <Button size='large' variant="contained" sx={{
                             marginRight: '10px',
+                            marginBottom: '20px',
                             fontWeight: 'bold',
                             padding: '13px 30px'
                         }} >Try for free</Button>

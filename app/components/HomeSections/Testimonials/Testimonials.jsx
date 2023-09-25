@@ -20,7 +20,7 @@ import travelokaLogo from '../../../../public/assets/testimonial-images/Travelok
 
 const Testimonials = () => {
     return (
-        <Box sx={{ bgcolor: '#052127', color: 'white', margin:'5% auto 0 auto' }}>
+        <Box sx={{ bgcolor: '#052127', color: 'white', margin:'12% auto 0 auto' }}>
             <Grid container spacing={3}
                 sx={{
 

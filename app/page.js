@@ -16,12 +16,13 @@ export default function Home() {
       <HomeBanner />
       <Perks />
       <Companies />
+      <Statistics/>
       <Workflows/>
       <ConnectedTools/>
       <Testimonials/>
       <QuickLinks />
       <FeaturedBlogPosts/>
-      <Statistics/>
+      
       
 
 

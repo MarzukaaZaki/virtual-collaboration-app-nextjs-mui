@@ -10,20 +10,25 @@ import { ArrowRight } from '@mui/icons-material';
 const Statistics = () => {
     return (
         <Box sx={{
+            margin:'10% 0',
+            textAlign:{
+                mobile: 'center',
+                tablet:'left'
+            },
             background: 'rgb(5,33,39)',
             background: 'linear-gradient(175deg, rgba(5,33,39,1) 2%, rgba(19,61,70,1) 35%, rgba(28,73,83,1) 56%, rgba(40,90,101,1) 73%, rgba(99,171,186,1) 93%, rgba(99,171,186,1) 100%)', color: 'white', padding: '25px'
         }}>
-            <Box sx={{ margin: '5px' }}>
+            <Box sx={{ margin: '5% 10px' }}>
 
 
                 <Typography variant='h2' sx={{ fontWeight: '600', marginBottom: '20px' }}>Unveiling Tellect: <br />A Symphony of Success</Typography>
                 <Typography variant='body' sx={{ padding: '2px 2px' }}>Explore the Data Behind Our Virtual Collaboration Triumph. Discover the Metrics That Showcase Our App's Excellence</Typography>
                 <br />
                 <Button variant='contained' sx={{ marginTop: '22px' }}>Read Our Case Studies</Button>
-                <Grid container sx={{ margin: '10px 0' }}>
+                <Grid container sx={{ margin: '10px -10px' }}>
 
 
-                    <Grid item mobile={12} tablet={12} laptop={4} sx={{ marginTop: '10%', }}>
+                    <Grid item mobile={12} tablet={12} laptop={4} sx={{ marginTop:'5%' }}>
                         <Box sx={{ backgroundColor: alpha('#fff', 0.12), padding: '15px', width: '380px' }}>
 
                         <Box sx={{display:'flex', justifyContent:'space-between'}}>
@@ -41,11 +46,11 @@ const Statistics = () => {
 
                         </Box>
                     </Grid>
-                    <Grid item mobile={12} tablet={12} laptop={4} sx={{ margin: '2% 0' }}>
+                    <Grid item mobile={12} tablet={12} laptop={4} sx={{ marginTop: '2%'}}>
                         <Box sx={{ backgroundColor: alpha('#fff', 0.12), padding: '15px', width: '380px' }}>
                             <Box sx={{display:'flex', justifyContent:'space-between'}}>
                                 <SlBadge style={{ fontSize: '28px', marginBottom: '12px' }} />
-                                <Button sx={{color:'white', fontSize:'12px'}}> View Case Study <ArrowRight/></Button>
+                                <Button sx={{color:'white', fontSize:'12px'}} size='small'> View Case Study <ArrowRight/></Button>
                             </Box>
                             
                             <Typography variant='body2' sx={{ textTransform: 'uppercase', marginBottom: '5px', fontWeight:'bold', fontSize:'12px' }}>Experience</Typography>
@@ -59,12 +64,12 @@ const Statistics = () => {
 
                         </Box>
                     </Grid>
-                    <Grid item mobile={12} tablet={12} laptop={4} sx={{ marginTop: '-5%' }}>
+                    <Grid item mobile={12} tablet={12} laptop={4} sx={{ marginTop:'-1%'}}>
                         <Box sx={{ backgroundColor: alpha('#fff', 0.12), padding: '15px', width: '380px' }}>
 
                         <Box sx={{display:'flex', justifyContent:'space-between'}}>
                                 <MdLiveTv style={{ fontSize: '28px', marginBottom: '12px' }} />
-                                <Button sx={{color:'white', fontSize:'12px'}}> View Case Study <ArrowRight/></Button>
+                                <Button sx={{color:'white', fontSize:'12px'}} size='small'> View Case Study <ArrowRight/></Button>
                             </Box>
                             <Typography variant='body2' sx={{ textTransform: 'uppercase', marginBottom: '5px', fontWeight:'bold', fontSize:'12px' }}>Livestreaming Hours Monthly</Typography>
                             <Box sx={{ display: 'flex' }}>

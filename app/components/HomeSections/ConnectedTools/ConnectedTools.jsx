@@ -12,7 +12,7 @@ import SectionTitle from '../../SectionTitle/SectionTitle';
 
 const ConnectedTools = () => {
     return (
-        <Box sx={{marginLeft:'5%'}}>
+        <Box sx={{margin:'10% 0 10% 5%'}}>
             <SectionTitle subHeading='Connect Tellect'/>
             <Grid container>
                 <Grid item mobile={12} laptop={5}>

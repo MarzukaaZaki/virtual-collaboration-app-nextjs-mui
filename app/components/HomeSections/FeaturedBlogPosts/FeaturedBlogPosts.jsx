@@ -24,7 +24,7 @@ const FeaturedBlogPosts = () => {
     return (
 
 
-        <Box sx={{ margin: '20px 5%', }}>
+        <Box sx={{ margin: '10% 5%', }}>
 
 
             <SectionTitle heading='Ready to Dive Deeper?' subHeading='from our blog' />

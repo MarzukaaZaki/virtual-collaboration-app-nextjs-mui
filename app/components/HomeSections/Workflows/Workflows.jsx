@@ -26,7 +26,7 @@ const Workflows = () => {
     const isBelowLaptop = useMediaQuery(theme.breakpoints.down('laptop'));
     const noOfSlidesPerView = isBelowLaptop ? 1.2 : 3;
     return (
-       <Box sx={{marginLeft:'5%', marginBottom:'5%'}}>
+       <Box sx={{margin:'10% 0 5% 5%'}}>
        <SectionTitle heading='Workflows Tuned for You' subHeading='Tellect in Action'></SectionTitle>
        <Swiper className="mySwiper"
                 
