@@ -2,16 +2,18 @@ import { Drawer, IconButton, List, ListItemButton, ListItemIcon, ListItemText } 
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import React, { useState } from 'react';
 import theme from '../../theme/theme'
+import Link from 'next/link';
 const NavDrawer = () => {
     const [openNavDrawer, setOpenNavDrawer] = useState(false);
-    const navLinks = ['About', 'Features', 'Integrations', 'Blog'];
+    const navLinks = ['about', 'features', 'integrations', 'blog'];
     return (
         <>
             <Drawer anchor='top' open={openNavDrawer} sx={{zIndex: theme.zIndex.navDrawer}} onClose={() => setOpenNavDrawer(false)}>
                 <List sx={{marginTop:'56px', backgroundColor: '#386766'}}>
                     {
                         navLinks.map((navLink, index) =>
-                            <ListItemButton key={index} sx={{ margin: '2px 6px' }}>
+                        <Link key={index} href={`/${navLink}`} style={{textDecoration:'none', textTransform:'capitalize'}}>
+                            <ListItemButton  sx={{ margin: '2px 6px' }}>
 
                                 <ListItemIcon>
 
@@ -19,7 +21,8 @@ const NavDrawer = () => {
                                         {navLink}
                                     </ListItemText>
                                 </ListItemIcon>
-                            </ListItemButton>)
+                            </ListItemButton>
+                        </Link>)
                     }
 
                 </List>

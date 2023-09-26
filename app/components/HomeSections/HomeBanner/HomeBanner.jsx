@@ -2,6 +2,7 @@ import { Button, Grid, Typography } from '@mui/material';
 import Image from 'next/image';
 import React from 'react';
 import bannerImg from '../../../../public/assets/online_meeting.gif'
+import Link from 'next/link';
 // import dynamic from 'next/dynamic';
 // const theme = dynamic(() => import('../../../theme/theme'), { ssr: false });
 
@@ -53,12 +54,13 @@ const HomeBanner = () => {
                         }} >
 
                             Watch Video</Button>
-                        <Button size='large' variant="contained" sx={{
+                       <Link href='/register'><Button size='large' variant="contained" sx={{
                             marginRight: '10px',
                             marginBottom: '20px',
                             fontWeight: 'bold',
                             padding: '13px 30px'
-                        }} >Try for free</Button>
+                        }} >Sign Up for free</Button>
+                        </Link> 
 
 
                     </div>

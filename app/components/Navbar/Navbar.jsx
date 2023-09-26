@@ -21,7 +21,7 @@ const Navbar = () => {
                 background: 'linear-gradient(97deg, rgba(49,157,152,1) 0%, rgba(26,130,146,1) 0%, rgba(64,173,156,1) 46%, rgba(67,176,157,1) 58%, rgba(91,208,164,1) 94%)'
             }}>
                 <Toolbar>
-                    <Image src={logoImg} priority alt='logo' width={153} height={65} ></Image>
+                    <Link href='/'> <Image src={logoImg} priority alt='logo' width={153} height={65} ></Image></Link>
                     {
                         isSizeBelowDesktop ?
                             <>
@@ -33,25 +33,30 @@ const Navbar = () => {
                                 {/* <Image src={logoImg} alt='logo' width={153} height={65}></Image> */}
                                 <Tabs
                                     sx={{
-                                        color:'white'
+                                        color: 'white'
                                     }}
                                     value={value}
                                     indicatorColor='white'
                                     onChange={(event, value) => setValue(value)}
-                                    >
+                                >
                                     {
                                         navLinks.map((navLink, index) =>
-                                           <Link href={`/${navLink}`} key={index}> <Tab  label={navLink} sx={{color:'white', fontWeight:'bold'}}></Tab></Link>)
+                                            <Link href={`/${navLink}`} key={index}> <Tab label={navLink} sx={{ color: 'white', fontWeight: 'bold' }}></Tab></Link>)
                                     }
-                                   
+
                                 </Tabs>
-                                <Button variant='contained' sx={{ border: '2.3px solid #124d49',
-                                padding: '12px', 
-                                marginLeft: 'auto', 
-                                fontSize: '13px', 
-                                fontWeight: 'bolder', 
-                                color: '#124d49', 
-                                backgroundColor: '#5bd0a4' }}> Create an Account</Button>
+                                
+                                    <Button variant='contained' size='small' sx={{
+                                        border: '2.3px solid #124d49',
+                                        padding: '12px',
+                                        marginLeft: 'auto',
+                                        fontSize: '13px',
+                                        fontWeight: 'bolder',
+                                        color: '#124d49',
+                                        backgroundColor: '#5bd0a4'
+                                    }}> <Link href='/login' style={{textDecoration:'none', color:'primary.main'}}>Sign In To Start free trial </Link></Button>
+                               
+
                             </>
 
 
