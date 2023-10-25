@@ -16,6 +16,7 @@ const LoginForm = () => {
         marginBottom:'6%', 
         borderBottom:'1px solid #207b7e'
     }
+    
     return (
         <Grid>
             <Paper elevation={3} style={paperStyle}>

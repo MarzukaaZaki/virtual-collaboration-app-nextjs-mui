@@ -9,6 +9,7 @@ import ConnectedTools from './components/HomeSections/ConnectedTools/ConnectedTo
 import Testimonials from './components/HomeSections/Testimonials/Testimonials'
 import FeaturedBlogPosts from './components/HomeSections/FeaturedBlogPosts/FeaturedBlogPosts'
 import Statistics from './components/HomeSections/Statistics/Statistics'
+import ReviewForm from './components/HomeSections/ReviewForm/ReviewForm'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Testimonials/>
       <QuickLinks />
       <FeaturedBlogPosts/>
+      <ReviewForm/>
       
       
 
