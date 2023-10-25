@@ -21,6 +21,7 @@ const AboutWork = () => {
                     <Card sx={{ maxWidth: 350, minHeight:'320px' , padding:'0 15px' }}>
                         <CardActionArea>
                             <Image src={collabImg} 
+                            alt='collaboration'
                             height={140}
                             style={{padding:'15px'}}
                            />
@@ -40,6 +41,7 @@ const AboutWork = () => {
                     <Card sx={{ maxWidth: 350, minHeight:'320px' , padding:'0 15px' }}>
                         <CardActionArea>
                             <Image src={workspaceImg} 
+                            alt='workspace'
                             height={140}
                             style={{padding:'15px'}}
                            />
@@ -58,7 +60,8 @@ const AboutWork = () => {
                 <Grid item mobile={12} laptop={6}>
                     <Card sx={{ maxWidth: 350, minHeight:'320px' , padding:'0 15px' }}>
                         <CardActionArea>
-                            <Image src={securityImg} 
+                            <Image src={securityImg}
+                            alt='security' 
                             height={140}
                             style={{padding:'15px'}}
                            />
@@ -78,6 +81,7 @@ const AboutWork = () => {
                     <Card sx={{ maxWidth: 350, minHeight:'320px' , padding:'0 15px' }}>
                         <CardActionArea>
                             <Image src={reportImg} 
+                            alt='report'
                             height={140}
                             style={{padding:'15px'}}
                            />

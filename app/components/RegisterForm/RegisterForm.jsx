@@ -1,5 +1,5 @@
 'use client'
-import { Avatar, Button, Grid, Paper, TextField, Typography } from '@mui/material';
+import { Avatar, Box, Button, Grid, Paper, TextField, Typography } from '@mui/material';
 import LockOpenIcon from '@mui/icons-material/LockOpen';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -31,7 +31,7 @@ const RegisterForm = () => {
     console.log(error);
 
 
-    /* Handlinh Register*/
+    /* Handling Register*/
     const handleRegister = (e) => {
         e.preventDefault();
         if (!name || !email || !password) {
