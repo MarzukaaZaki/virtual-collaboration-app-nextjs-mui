@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import styles from './page.module.css'
 import HomeBanner from './components/HomeSections/HomeBanner/HomeBanner'
@@ -10,11 +11,36 @@ import Testimonials from './components/HomeSections/Testimonials/Testimonials'
 import FeaturedBlogPosts from './components/HomeSections/FeaturedBlogPosts/FeaturedBlogPosts'
 import Statistics from './components/HomeSections/Statistics/Statistics'
 import ReviewForm from './components/HomeSections/ReviewForm/ReviewForm'
+import { useEffect } from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 export default function Home() {
+  useEffect(()=>{
+    Aos.init();
+
+  },[])
+
+
+  const homeSections = [
+    {component: <HomeBanner/>, duration: 3300},
+    {component: <Perks/>, duration: 3300},
+    {component: <Companies/>, duration: 3300},
+    {component: <Statistics/>, duration: 3300},
+    {component: <Workflows/>, duration: 3300},
+    {component: <ConnectedTools/>, duration: 3300},
+    {component: <Testimonials/>, duration: 3300},
+    {component: <QuickLinks/>, duration: 3300},
+    {component: <FeaturedBlogPosts/>, duration: 3300},
+  ]
+
+
   return (
     <div>
-      <HomeBanner />
+      {
+        homeSections.map((homeSection, index)=> <div key={index} data-aos='fade-up' data-aos-duration={homeSection.duration} >{homeSection.component}</div>)
+      }
+      {/* <HomeBanner />
       <Perks />
       <Companies />
       <Statistics/>
@@ -22,8 +48,8 @@ export default function Home() {
       <ConnectedTools/>
       <Testimonials/>
       <QuickLinks />
-      <FeaturedBlogPosts/>
-      <ReviewForm/>
+      <FeaturedBlogPosts/> */}
+      {/* <ReviewForm/> */}
       
       
 

@@ -8,7 +8,7 @@ import { useTheme } from '@emotion/react';
 import Link from 'next/link';
 
 const Navbar = () => {
-    const navLinks = ['about', 'features', 'integrations', 'blog'];
+    const navLinks = [ 'about', 'integrations', 'blog', 'login'];
     const [value, setValue] = useState(1);
     const theme = useTheme();
     // console.log(theme);
@@ -54,7 +54,7 @@ const Navbar = () => {
                                         fontWeight: 'bolder',
                                         color: '#124d49',
                                         backgroundColor: '#5bd0a4'
-                                    }}> <Link href='/login' style={{textDecoration:'none', color:'primary.main'}}>Sign In To Start free trial </Link></Button>
+                                    }}> <Link href='/register' style={{textDecoration:'none', color:'primary.main'}}>Join Us Today! </Link></Button>
                                
 
                             </>
